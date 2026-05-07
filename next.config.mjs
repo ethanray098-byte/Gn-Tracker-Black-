@@ -1,15 +1,5 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  reactStrictMode: true,
-  
-  // ယာယီအနေနဲ့ build ဖြစ်အောင်
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // သင့် config options တွေ
 }
 
-module.exports = nextConfig
+export default nextConfig
