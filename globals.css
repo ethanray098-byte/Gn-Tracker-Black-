@@ -1,0 +1,7 @@
+[ -f globals.css ]; then
+  cp globals.css app/globals.css
+else
+  cat > app/globals.css << 'EOF'
+@import "tailwindcss";
+EOF
+fi
